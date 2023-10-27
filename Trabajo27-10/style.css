@@ -1,0 +1,75 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1500;
+    border: 7px solid rgb(245, 245, 144);
+    padding: 10px;
+    margin: 10px;  
+    background-color:  rgb(0, 128, 64);
+    color: aliceblue;
+}
+
+.menu{
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+.menu1{
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover{
+    border: 3px rgb(80, 211, 109) solid;
+}
+.pie{
+    width: 1500;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;  
+    color: white
+}
+.pie h6{
+    color: white;
+}
+.pie legend{
+    color: white
+}
+.pie label{
+    color: white
+}
+.servicios{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.servicios1{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.servicios2{
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+.servicios3{
+    position: absolute;
+    left: 25%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+.Cuadro{
+    padding: 10px 10px 10px 10px;
+    background-color:  rgb(0, 128, 64);
+    border: 5px solid rgb(198, 221, 115);
+    border-style: dashed;
+    text-align: center;
+}
